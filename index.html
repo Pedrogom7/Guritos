@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guritos</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-KDF_PUycRxpQLCa2NLtv4-Ht49TL7Dg&callback=initMap"
+    async defer></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <img src="./assets/logo.png" alt="Guritos Logo" class="logo">
+      <button class="hamburger" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="./pages/produtos/produtos.html">Produtos</a></li>
+          <li><a href="./pages/comprar/comprar.html">Comprar</a></li>
+          <li><a href="./pages/sobre/sobre.html">Sobre</a></li>
+          <li><a href="./pages/faleconosco/faleconosco.html">Fale conosco</a></li>
+        </ul>
+      </nav>
+      <a href="https://www.instagram.com/guritos.ofc" target="_blank" class="social-icon">
+        <img src="./assets/instagram-icon.png" alt="Siga-nos no Instagram">
+      </a>
+    </div>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <button class="carousel-btn prev" aria-label="Imagem anterior">&lt;</button>
+    <div class="carousel-content">
+      <div class="carousel-wrapper">
+        <img src="./assets/banner1.png" alt="Banner 1" class="carousel-image">
+        <img src="./assets/banner2.png" alt="Banner 2" class="carousel-image">
+        <img src="./assets/banner3.png" alt="Banner 3" class="carousel-image">
+      </div>
+    </div>
+    <button class="carousel-btn next" aria-label="Próxima imagem">&gt;</button>
+  </section>
+
+  <!-- Produtos -->
+  <section class="products">
+    <h2>Conheça Nossos Produtos</h2>
+    <div class="product-row">
+      <div class="product-card">
+        <h3>Salgadinho de Milho 40g</h3>
+        <div class="product-images">
+          <img src="./assets/produtos1.png" alt="Salgadinho de Milho 40g">
+        </div>
+      </div>
+      <div class="product-card">
+        <h3>Salgadinho de Milho 140g</h3>
+        <div class="product-images">
+          <img src="./assets/produtos2.png" alt="Salgadinho de Milho 140g">
+        </div>
+      </div>
+    </div>
+    <div class="product-row">
+      <div class="product-card">
+        <h3>Salgadinhos de Trigo 40g</h3>
+        <div class="product-images">
+          <img src="./assets/produtos3.png" alt="Salgadinhos de Trigo 40g">
+        </div>
+      </div>
+      <div class="product-card">
+        <h3>Salgadinhos de Trigo 70g</h3>
+        <div class="product-images">
+          <img src="./assets/produtos4.png" alt="Salgadinhos de Trigo 70g">
+        </div>
+      </div>
+      <div class="product-row">
+        <div class="product-card">
+          <h3>Sequilhos Delicel 160g</h3>
+          <div class="product-images">
+            <img src="./assets/produtos5.png" alt="Sequilhos Delicel 160g">
+          </div>
+        </div>
+        <div class="product-card">
+          <h3>Biscoitos de Polvilho 70g e 100g</h3>
+          <div class="product-images">
+            <img src="./assets/produtos6.png" alt="Biscoitos de Polvilho 70g e 100g">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Onde Comprar -->
+  <section class="where-to-buy">
+    <h2>Onde Comprar</h2>
+    <div class="map-section">
+      <p>Encontre o GURITOS mais perto de você!</p>
+      <div id="map"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-column">
+        <h4>Contato</h4>
+        <p>(44) 3252-5142</p>
+        <p>guritos@guritos.com.br</p>
+      </div>
+      <div class="footer-column">
+        <h4>Endereço</h4>
+        <p>Rua Antônio Ivan Tozin, 268</p>
+        <p>Parque Industrial - Nova Esperança, PR</p>
+      </div>
+      <div class="footer-column">
+        <h4>Sobre</h4>
+        <a href="./pages/sobre/sobre.html">Quem somos</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Chat Icon -->
+  <div class="chat-icon">
+    <a href="https://wa.me/554432525142" target="_blank">
+      <img src="./assets/chat-icon.png" alt="Fale conosco via WhatsApp">
+    </a>
+  </div>
+
+  <script src="./script.js"></script>
+  <script src="./googleapi.js"></script>
+</body>
+
+</html>
