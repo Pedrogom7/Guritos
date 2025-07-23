@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fale Conosco - Guritos</title>
+  <link rel="stylesheet" href="../../styles.css" />
+  <link rel="stylesheet" href="faleconosco.css" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="../../assets/logo.png" alt="Guritos Logo" class="logo" />
+      <button class="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Início</a></li>
+          <li><a href="../produtos/produtos.html">Produtos</a></li>
+          <li><a href="../comprar/comprar.html">Comprar</a></li>
+          <li><a href="../sobre/sobre.html">Sobre</a></li>
+          <li><a href="faleconosco.html" class="ativo">Fale conosco</a></li>
+        </ul>
+      </nav>
+      <a href="https://www.instagram.com/guritos.ofc" target="_blank" class="social-icon">
+        <img src="../../assets/instagram-icon.png" alt="Instagram" />
+      </a>
+    </div>
+  </header>
+
+  <main class="fale-container">
+    <div class="fale-box">
+      <h1>Fale Conosco</h1>
+      <p>Tem dúvidas, sugestões ou deseja entrar em contato? Preencha o formulário abaixo e retornaremos em breve.</p>
+
+      <form id="contato-form">
+        <input type="text" name="user_name" placeholder="Nome" required />
+        <input type="email" name="user_email" placeholder="E-mail" required />
+        <input type="tel" name="user_phone" placeholder="Telefone" required />
+        <input type="text" name="subject" placeholder="Assunto" required />
+        <textarea name="message" placeholder="Mensagem" rows="5" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div id="status-mensagem"></div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-column">
+        <h4>Contato</h4>
+        <p>(44) 3252-5142</p>
+        <p>guritos@guritos.com.br</p>
+      </div>
+      <div class="footer-column">
+        <h4>Endereço</h4>
+        <p>Rua Antônio Ivan Tozin, 268</p>
+        <p>Parque Industrial - Nova Esperança, PR</p>
+      </div>
+      <div class="footer-column">
+        <h4>Sobre</h4>
+        <a href="../sobre/sobre.html">Quem somos</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Chat Icon -->
+  <div class="chat-icon">
+    <a href="https://wa.me/554432525142" target="_blank">
+      <img src="../../assets/chat-icon.png" alt="Fale conosco via WhatsApp">
+    </a>
+  </div>
+
+  <script src="faleconosco.js"></script>
+  <script src="../../script.js"></script>
+</body>
+
+</html>
