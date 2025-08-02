@@ -12,7 +12,8 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.sobre-container h1 {
+.sobre-container h1,
+h2 {
   font-size: 36px;
   color: #003087;
   margin-bottom: 20px;
