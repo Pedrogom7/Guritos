@@ -266,6 +266,28 @@ const products = [
       ]
     }
   },
+  {
+    category: "salgadinhos-milho-140g",
+    title: "Milho 140g - Bacon",
+    image: "../../assets/produtos/27.png",
+    description: "Crocante por fora, saboroso por dentro! Traz o gostinho defumado e envolvente do bacon, perfeito para quem curte um lanche ousado e viciante.",
+    nutrition: {
+      porcoesPorEmbalagem: "Cerca de 7",
+      porcao: "20g (2 xícaras)\n%VD: Valores Diários de referência com base em uma dieta de 2.000 kcal.\n-Valor diário não estabelecido.",
+      dados: [
+        { nutriente: "Valor energético (kcal)", por100g: "438,8", porcao: "87,8", vd: "4,4%" },
+        { nutriente: "Carboidratos (g)", por100g: "76,9", porcao: "15,4", vd: "5,1%" },
+        { nutriente: "Açúcares Totais (g)", por100g: "0,1", porcao: "0,0", vd: "--" },
+        { nutriente: "Açúcares Adicionado", por100g: "0,0", porcao: "0,0", vd: "--" },
+        { nutriente: "Proteínas (g)", por100g: "7,0", porcao: "1,4", vd: "1,9%" },
+        { nutriente: "Gorduras Totais (g)", por100g: "10,8", porcao: "2,2", vd: "3,9%" },
+        { nutriente: "Gorduras Saturadas (g)", por100g: "1,7", porcao: "0,3", vd: "1,6%" },
+        { nutriente: "Gorduras Trans (g)", por100g: "0,0", porcao: "0,0", vd: "0%" },
+        { nutriente: "Fibras Alimentares (g)", por100g: "4,5", porcao: "0,9", vd: "3,6%" },
+        { nutriente: "Sódio (mg)", por100g: "891,4", porcao: "178,3", vd: "7,4%" }
+      ]
+    }
+  },
 
   // Salgadinhos de Trigo 40g
   {
