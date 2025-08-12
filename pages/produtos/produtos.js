@@ -294,7 +294,7 @@ const products = [
     category: "salgadinhos-trigo-40g",
     title: "Trigo 40g - Bacon com Ketchup",
     image: "../../assets/produtos/5.png",
-    description: "Crocante e cheio de sabor!",
+    description: "Dois clássicos unidos em um só snack. A pele frita sabor bacon com ketchup é para quem gosta de sabor intenso e cheio de personalidade. O gosto defumado e encorpado do bacon se combina com o toque adocicado e levemente ácido do ketchup, resultando em um petisco marcante, moderno e surpreendente.",
     nutrition: {
       porcoesPorEmbalagem: "2",
       porcao: "20g (2 xícaras)\n%VD: Valores Diários de referência com base em uma dieta de 2.000 kcal.\n-Valor diário não estabelecido.",
@@ -317,6 +317,28 @@ const products = [
     title: "Trigo 40g - Costelinha com Limão",
     image: "../../assets/produtos/12.png",
     description: "Sabor intenso de costelinha com toque cítrico.",
+    nutrition: {
+      porcoesPorEmbalagem: "2",
+      porcao: "20g (2 xícaras)\n%VD: Valores Diários de referência com base em uma dieta de 2.000 kcal.\n-Valor diário não estabelecido.",
+      dados: [
+        { nutriente: "Valor energético (kcal)", por100g: "405", porcao: "81", vd: "3,2%" },
+        { nutriente: "Carboidratos (g)", por100g: "67", porcao: "13,4", vd: "3,6%" },
+        { nutriente: "Açúcares Totais (g)", por100g: "2,2", porcao: "0,4", vd: "--" },
+        { nutriente: "Açúcares Adicionado", por100g: "0", porcao: "0", vd: "--" },
+        { nutriente: "Proteínas (g)", por100g: "7", porcao: "1,4", vd: "2,8%" },
+        { nutriente: "Gorduras Totais (g)", por100g: "11", porcao: "2,2", vd: "2,7%" },
+        { nutriente: "Gorduras Saturadas (g)", por100g: "2,5", porcao: "0,5", vd: "2%" },
+        { nutriente: "Gorduras Trans (g)", por100g: "0", porcao: "0", vd: "--" },
+        { nutriente: "Fibras Alimentares (g)", por100g: "2,3", porcao: "0,5", vd: "0,6%" },
+        { nutriente: "Sódio (mg)", por100g: "705", porcao: "141", vd: "6,9%" }
+      ]
+    }
+  },
+  {
+    category: "salgadinhos-trigo-40g",
+    title: "Trigo 40g - Bacon",
+    image: "../../assets/produtos/28.png",
+    description: "Clássico, irresistível e com gostinho de quero mais. O sabor bacon é encorpado e defumado na medida certa, remetendo àquele bacon crocante e suculento que todos amam.",
     nutrition: {
       porcoesPorEmbalagem: "2",
       porcao: "20g (2 xícaras)\n%VD: Valores Diários de referência com base em uma dieta de 2.000 kcal.\n-Valor diário não estabelecido.",
