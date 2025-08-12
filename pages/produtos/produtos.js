@@ -316,7 +316,7 @@ const products = [
     category: "salgadinhos-trigo-40g",
     title: "Trigo 40g - Costelinha com Limão",
     image: "../../assets/produtos/12.png",
-    description: "Sabor intenso de costelinha com toque cítrico.",
+    description: "A combinação ideal entre sabor marcante e refrescância. O sabor costelinha com limão entrega a intensidade da carne suína bem temperada, com o equilíbrio ácido e cítrico do limão.",
     nutrition: {
       porcoesPorEmbalagem: "2",
       porcao: "20g (2 xícaras)\n%VD: Valores Diários de referência com base em uma dieta de 2.000 kcal.\n-Valor diário não estabelecido.",
